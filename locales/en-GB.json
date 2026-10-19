@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "Tomoe — Japanese restaurant in the Eixample, Barcelona",
+    "description": "Sushi counter, omakase and tempura on Carrer de València. Fish from Mercabarna and Toyosu, dashi made each morning, forty sakes by the glass or bottle."
+  },
+  "nav": {
+    "story": "Story",
+    "menu": "Menu",
+    "location": "Location",
+    "reservation": "Reservation",
+    "reserve": "Reserve a table",
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "lang": {
+    "label": "Language",
+    "ca": "Català",
+    "es": "Español",
+    "ja": "日本語",
+    "en-GB": "English"
+  },
+  "status": {
+    "city": "Barcelona",
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "today": "Open today",
+    "closedToday": "Closed today",
+    "nextOpen": "Next service {day} {time}"
+  },
+  "hero": {
+    "eyebrow": "Japanese restaurant · L'Eixample, Barcelona",
+    "title": "Japanese cooking on Carrer de València, five minutes from Passeig de Gràcia.",
+    "lead": "A twelve-seat hinoki counter and a small dining room. Dashi made every morning, fish from Mercabarna and Tokyo's Toyosu market, and forty sakes to drink with it.",
+    "book": "Book a table",
+    "viewMenu": "View the menu",
+    "counter": "12 counter seats",
+    "room": "22 seats in the dining room"
+  },
+  "story": {
+    "index": "01",
+    "label": "Story",
+    "title": "What we do in the kitchen, and why.",
+    "intro": "Chef Kenta Mori trained for nine years in Kanazawa before moving to Barcelona in 2019. The cooking is Japanese in technique; much of the produce comes from Catalonia.",
+    "dashi": {
+      "kicker": "Dashi · 出汁",
+      "title": "Broth made at nine every morning",
+      "body": "Rishiri kombu soaked overnight in soft water, then katsuobushi shaved to order. It is the base of our soups, simmered dishes and the tempura dipping sauce."
+    },
+    "fish": {
+      "kicker": "Fish · 魚",
+      "title": "Two markets, one counter",
+      "body": "Red prawns, sea bream and mackerel come from Catalan boats via Mercabarna each morning. Tuna and seasonal shellfish arrive from Toyosu twice a week."
+    },
+    "sake": {
+      "kicker": "Sake · 日本酒",
+      "title": "Forty sakes, chosen with the food",
+      "body": "Our sommelier pairs junmai and ginjo from small breweries with each course of the omakase. Also available by the glass."
+    },
+    "counter": {
+      "kicker": "The counter · カウンター",
+      "title": "A single plank of hinoki",
+      "body": "Each piece of nigiri is shaped and served in front of you, at the temperature it was meant to be eaten."
+    },
+    "chef": {
+      "kicker": "Technique · 技",
+      "title": "Aged, cured, lightly seared",
+      "body": "Fish is dry-aged for between two and ten days depending on the cut. Rice is seasoned with red vinegar from Yokoi."
+    },
+    "season": {
+      "kicker": "This month",
+      "title": "October menu",
+      "body": "Sanma from Hokkaido, Delta de l'Ebre rice, wild mushrooms from the Pyrenees."
+    }
+  },
+  "menu": {
+    "index": "02",
+    "label": "Menu",
+    "title": "Menu highlights",
+    "intro": "A selection from the current menu. Dishes change with the market; the full list is printed daily.",
+    "tabs": {
+      "omakase": "Omakase",
+      "sushi": "Sushi & Sashimi",
+      "tempura": "Tempura",
+      "sake": "Sake"
+    },
+    "notes": {
+      "omakase": "Served at the counter only. Please tell us about allergies when booking.",
+      "sushi": "Price per piece for nigiri.",
+      "tempura": "Fried in sesame and cottonseed oil.",
+      "sake": "Price per glass (90 ml) / per bottle (720 ml)."
+    },
+    "items": {
+      "kiwami": { "name": "Kiwami omakase", "desc": "Eighteen courses: appetisers, sashimi, a seasonal hot dish and twelve pieces of nigiri." },
+      "shun": { "name": "Shun omakase", "desc": "Twelve courses built around the fish of the day." },
+      "lunch": { "name": "Lunch nigiri set", "desc": "Ten pieces of nigiri, miso soup and tamagoyaki. Tuesday to Sunday, lunch only." },
+      "shojin": { "name": "Shōjin course", "desc": "Nine vegetarian courses in the Buddhist temple tradition. Kombu and shiitake dashi." },
+      "otoro": { "name": "Ōtoro", "desc": "Fatty bluefin tuna belly, aged for five days." },
+      "gamba": { "name": "Palamós red prawn", "desc": "Raw, with a little of its own coral." },
+      "kinmedai": { "name": "Seared golden-eye snapper", "desc": "Skin seared over binchōtan charcoal." },
+      "moriawase": { "name": "Sashimi selection", "desc": "Five kinds from the morning market, for two." },
+      "nasu": { "name": "Aubergine nigiri", "desc": "Grilled, glazed with sweet miso." },
+      "ebi": { "name": "Kuruma prawn tempura", "desc": "Two prawns, heads fried separately." },
+      "yasai": { "name": "Seasonal vegetable tempura", "desc": "Six pieces from the Maresme and our Pyrenean suppliers." },
+      "anago": { "name": "Whole conger eel tempura", "desc": "Served with matcha salt and grated daikon." },
+      "tendon": { "name": "Tendon (lunch only)", "desc": "Tempura over rice with a sweet soy sauce. Vegetable version available." },
+      "dassai": { "name": "Dassai 45 Junmai Daiginjo", "desc": "Yamaguchi. Pear, melon; clean finish." },
+      "kokuryu": { "name": "Kokuryū Ginjo", "desc": "Fukui. Dry and light — good with sashimi." },
+      "nabeshima": { "name": "Nabeshima Tokubetsu Junmai", "desc": "Saga. Rounder, with rice and banana notes." },
+      "pairing": { "name": "Sake pairing", "desc": "Five glasses chosen for the Kiwami or Shun omakase." }
+    },
+    "tags": {
+      "vegetarian": "Vegetarian",
+      "vegetarianOption": "Vegetarian option",
+      "glutenFree": "Gluten-free",
+      "fish": "Fish",
+      "crustacean": "Crustaceans",
+      "mollusc": "Molluscs",
+      "soy": "Soy",
+      "gluten": "Gluten",
+      "sesame": "Sesame",
+      "egg": "Egg",
+      "sulphites": "Sulphites"
+    },
+    "allergenNote": "Allergen information follows EU Regulation 1169/2011. Ask our staff for the full list.",
+    "dietLabel": "Diet",
+    "allergenLabel": "Contains"
+  },
+  "location": {
+    "index": "03",
+    "label": "Location",
+    "title": "Find us",
+    "addressLabel": "Address",
+    "openInMaps": "Open in Google Maps",
+    "hoursLabel": "Opening hours",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "closed": "Closed",
+    "transportLabel": "Getting here",
+    "transport": "Passeig de Gràcia (L2, L3, L4, Rodalies) — 5 min walk. Bicing station at Rambla de Catalunya.",
+    "dressLabel": "Dress code",
+    "dress": "Smart casual. Please avoid strong perfume at the counter.",
+    "contactLabel": "Contact",
+    "mapTitle": "Map showing Tomoe on Carrer de València, Barcelona"
+  },
+  "reserveBand": {
+    "index": "04",
+    "label": "Reservation",
+    "title": "Book a seat at the counter or a table in the dining room.",
+    "body": "We take bookings up to 30 days ahead for groups of one to six. For larger groups or private hire, please call us.",
+    "cta": "Check availability",
+    "phone": "Or call"
+  },
+  "reservation": {
+    "title": "Reserve a table",
+    "steps": ["Date & time", "Your details", "Confirmed"],
+    "guests": "Guests",
+    "guest": "guest",
+    "guestsPlural": "guests",
+    "date": "Date",
+    "time": "Time",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "closedMonday": "We are closed on Mondays.",
+    "noDinner": "Sunday: lunch service only.",
+    "pickDate": "Choose a date to see times.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "requests": "Allergies or special requests",
+    "requestsPlaceholder": "e.g. shellfish allergy, a birthday, a seat at the counter…",
+    "optional": "optional",
+    "errors": {
+      "date": "Please choose a date.",
+      "time": "Please choose a time.",
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a phone number."
+    },
+    "next": "Continue",
+    "back": "Back",
+    "submit": "Send request",
+    "summary": "{guests} · {date} · {time}",
+    "successTitle": "Reservation request sent",
+    "successBody": "We will confirm by email within a few hours. If you need to change anything, reply to that email or call us.",
+    "done": "Close",
+    "toastTitle": "Request sent",
+    "toastBody": "Table for {guests} on {date} at {time}.",
+    "demo": "This is a portfolio demo project. No actual booking is created."
+  },
+  "footer": {
+    "tagline": "Japanese restaurant in the Eixample, Barcelona.",
+    "follow": "Follow",
+    "rights": "All rights reserved.",
+    "demo": "Portfolio demo. Tomoe is a fictional restaurant; the address, phone number and dishes are for illustration only. Photography: Unsplash.",
+    "language": "Language"
+  }
+}

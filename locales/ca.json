@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "Tomoe — Restaurant japonès a l'Eixample, Barcelona",
+    "description": "Barra de sushi, omakase i tempura al carrer de València. Peix de Mercabarna i Toyosu, dashi fet cada matí i quaranta sakes per copa o ampolla."
+  },
+  "nav": {
+    "story": "Història",
+    "menu": "Carta",
+    "location": "On som",
+    "reservation": "Reserves",
+    "reserve": "Reservar taula",
+    "open": "Obrir menú",
+    "close": "Tancar menú"
+  },
+  "lang": {
+    "label": "Idioma",
+    "ca": "Català",
+    "es": "Español",
+    "ja": "日本語",
+    "en-GB": "English"
+  },
+  "status": {
+    "city": "Barcelona",
+    "openNow": "Obert ara",
+    "closedNow": "Tancat ara",
+    "today": "Avui obrim",
+    "closedToday": "Avui tancat",
+    "nextOpen": "Proper servei: {day} {time}"
+  },
+  "hero": {
+    "eyebrow": "Restaurant japonès · L'Eixample, Barcelona",
+    "title": "Cuina japonesa al carrer de València, a cinc minuts del Passeig de Gràcia.",
+    "lead": "Una barra de hinoki de dotze places i un petit menjador. Dashi preparat cada matí, peix de Mercabarna i del mercat de Toyosu de Tòquio, i quaranta sakes per acompanyar-lo.",
+    "book": "Reservar taula",
+    "viewMenu": "Veure la carta",
+    "counter": "12 places a la barra",
+    "room": "22 places al menjador"
+  },
+  "story": {
+    "index": "01",
+    "label": "Història",
+    "title": "Què fem a la cuina i per què.",
+    "intro": "El xef Kenta Mori es va formar durant nou anys a Kanazawa abans d'instal·lar-se a Barcelona el 2019. La tècnica és japonesa; bona part del producte és català.",
+    "dashi": {
+      "kicker": "Dashi · 出汁",
+      "title": "Brou preparat cada dia a les nou",
+      "body": "Kombu de Rishiri en remull tota la nit en aigua tova i katsuobushi ratllat al moment. És la base de les nostres sopes, guisats i de la salsa de la tempura."
+    },
+    "fish": {
+      "kicker": "Peix · 魚",
+      "title": "Dos mercats, una barra",
+      "body": "La gamba vermella, el pagre i el verat arriben cada matí de barques catalanes via Mercabarna. La tonyina i el marisc de temporada venen de Toyosu dos cops per setmana."
+    },
+    "sake": {
+      "kicker": "Sake · 日本酒",
+      "title": "Quaranta sakes triats per a la cuina",
+      "body": "La nostra sommelier marida junmai i ginjo de petits cellers amb cada plat de l'omakase. També per copes."
+    },
+    "counter": {
+      "kicker": "La barra · カウンター",
+      "title": "Una sola peça de hinoki",
+      "body": "Cada nigiri es forma i se serveix davant teu, a la temperatura a què s'ha de menjar."
+    },
+    "chef": {
+      "kicker": "Tècnica · 技",
+      "title": "Madurat, curat, lleugerament segellat",
+      "body": "Madurem el peix entre dos i deu dies segons la peça. L'arròs s'amaneix amb vinagre vermell de Yokoi."
+    },
+    "season": {
+      "kicker": "Aquest mes",
+      "title": "Menú d'octubre",
+      "body": "Sanma de Hokkaido, arròs del Delta de l'Ebre i bolets silvestres del Pirineu."
+    }
+  },
+  "menu": {
+    "index": "02",
+    "label": "Carta",
+    "title": "Destacats de la carta",
+    "intro": "Una selecció de la carta actual. Els plats canvien amb el mercat; la carta completa s'imprimeix cada dia.",
+    "tabs": {
+      "omakase": "Omakase",
+      "sushi": "Sushi i sashimi",
+      "tempura": "Tempura",
+      "sake": "Sake"
+    },
+    "notes": {
+      "omakase": "Només a la barra. Indica'ns les al·lèrgies en fer la reserva.",
+      "sushi": "Preu per peça als nigiris.",
+      "tempura": "Fregit en oli de sèsam i de cotó.",
+      "sake": "Preu per copa (90 ml) / per ampolla (720 ml)."
+    },
+    "items": {
+      "kiwami": { "name": "Omakase Kiwami", "desc": "Divuit passos: aperitius, sashimi, un plat calent de temporada i dotze nigiris." },
+      "shun": { "name": "Omakase Shun", "desc": "Dotze passos al voltant del peix del dia." },
+      "lunch": { "name": "Menú de nigiris al migdia", "desc": "Deu nigiris, sopa de miso i tamagoyaki. De dimarts a diumenge, només migdia." },
+      "shojin": { "name": "Menú Shōjin", "desc": "Nou passos vegetarians de tradició budista. Dashi de kombu i xiitake." },
+      "otoro": { "name": "Ōtoro", "desc": "Ventresca de tonyina vermella madurada cinc dies." },
+      "gamba": { "name": "Gamba vermella de Palamós", "desc": "Crua, amb una mica del seu corall." },
+      "kinmedai": { "name": "Kinmedai segellat", "desc": "Pell segellada sobre carbó binchōtan." },
+      "moriawase": { "name": "Selecció de sashimi", "desc": "Cinc varietats del mercat del matí, per a dos." },
+      "nasu": { "name": "Nigiri d'albergínia", "desc": "A la brasa, glacejada amb miso dolç." },
+      "ebi": { "name": "Tempura de llagostí kuruma", "desc": "Dues peces; els caps, fregits a part." },
+      "yasai": { "name": "Tempura de verdures de temporada", "desc": "Sis peces del Maresme i dels nostres productors del Pirineu." },
+      "anago": { "name": "Tempura de congre sencer", "desc": "Amb sal de matcha i daikon ratllat." },
+      "tendon": { "name": "Tendon (només migdia)", "desc": "Tempura sobre arròs amb salsa de soja dolça. Hi ha versió vegetal." },
+      "dassai": { "name": "Dassai 45 Junmai Daiginjo", "desc": "Yamaguchi. Pera, meló; final net." },
+      "kokuryu": { "name": "Kokuryū Ginjo", "desc": "Fukui. Sec i lleuger; ideal amb sashimi." },
+      "nabeshima": { "name": "Nabeshima Tokubetsu Junmai", "desc": "Saga. Més rodó, notes d'arròs i plàtan." },
+      "pairing": { "name": "Maridatge de sake", "desc": "Cinc copes per a l'omakase Kiwami o Shun." }
+    },
+    "tags": {
+      "vegetarian": "Vegetarià",
+      "vegetarianOption": "Opció vegetariana",
+      "glutenFree": "Sense gluten",
+      "fish": "Peix",
+      "crustacean": "Crustacis",
+      "mollusc": "Mol·luscs",
+      "soy": "Soja",
+      "gluten": "Gluten",
+      "sesame": "Sèsam",
+      "egg": "Ou",
+      "sulphites": "Sulfits"
+    },
+    "allergenNote": "Informació sobre al·lèrgens segons el Reglament (UE) 1169/2011. Demana la llista completa al nostre equip.",
+    "dietLabel": "Dieta",
+    "allergenLabel": "Conté"
+  },
+  "location": {
+    "index": "03",
+    "label": "On som",
+    "title": "Com arribar-hi",
+    "addressLabel": "Adreça",
+    "openInMaps": "Obrir a Google Maps",
+    "hoursLabel": "Horari",
+    "lunch": "Migdia",
+    "dinner": "Sopar",
+    "closed": "Tancat",
+    "transportLabel": "Transport",
+    "transport": "Passeig de Gràcia (L2, L3, L4, Rodalies), a 5 minuts a peu. Estació de Bicing a la Rambla de Catalunya.",
+    "dressLabel": "Codi de vestimenta",
+    "dress": "Elegant informal. A la barra, si us plau, eviteu perfums intensos.",
+    "contactLabel": "Contacte",
+    "mapTitle": "Mapa amb la ubicació de Tomoe al carrer de València, Barcelona"
+  },
+  "reserveBand": {
+    "index": "04",
+    "label": "Reserves",
+    "title": "Reserva un lloc a la barra o una taula al menjador.",
+    "body": "Acceptem reserves amb fins a 30 dies d'antelació per a grups d'una a sis persones. Per a grups més grans o esdeveniments privats, truca'ns.",
+    "cta": "Veure disponibilitat",
+    "phone": "O truca al"
+  },
+  "reservation": {
+    "title": "Reservar taula",
+    "steps": ["Data i hora", "Les teves dades", "Confirmat"],
+    "guests": "Persones",
+    "guest": "persona",
+    "guestsPlural": "persones",
+    "date": "Data",
+    "time": "Hora",
+    "lunch": "Migdia",
+    "dinner": "Sopar",
+    "closedMonday": "Els dilluns tanquem.",
+    "noDinner": "Diumenge: només servei de migdia.",
+    "pickDate": "Tria una data per veure els horaris.",
+    "name": "Nom i cognoms",
+    "email": "Correu electrònic",
+    "phone": "Telèfon",
+    "requests": "Al·lèrgies o peticions especials",
+    "requestsPlaceholder": "p. ex. al·lèrgia al marisc, un aniversari, lloc a la barra…",
+    "optional": "opcional",
+    "errors": {
+      "date": "Tria una data.",
+      "time": "Tria una hora.",
+      "name": "Escriu el teu nom.",
+      "email": "Escriu un correu electrònic vàlid.",
+      "phone": "Escriu un número de telèfon."
+    },
+    "next": "Continuar",
+    "back": "Enrere",
+    "submit": "Enviar sol·licitud",
+    "summary": "{guests} · {date} · {time}",
+    "successTitle": "Sol·licitud de reserva enviada",
+    "successBody": "Te la confirmarem per correu en unes hores. Si cal canviar res, respon aquest correu o truca'ns.",
+    "done": "Tancar",
+    "toastTitle": "Sol·licitud enviada",
+    "toastBody": "Taula per a {guests} el {date} a les {time}.",
+    "demo": "This is a portfolio demo project. No actual booking is created."
+  },
+  "footer": {
+    "tagline": "Restaurant japonès a l'Eixample, Barcelona.",
+    "follow": "Segueix-nos",
+    "rights": "Tots els drets reservats.",
+    "demo": "Demo de portfoli. Tomoe és un restaurant fictici; l'adreça, el telèfon i els plats són il·lustratius. Fotografia: Unsplash.",
+    "language": "Idioma"
+  }
+}

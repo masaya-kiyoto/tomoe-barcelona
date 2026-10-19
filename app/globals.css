@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens — charcoal slate base, washi-paper text, a single brass accent.
+ * Kept deliberately small: contrast and type do the work, not decoration.
+ */
+@theme {
+  --color-ink: #020617;          /* slate-950 — page */
+  --color-ink-2: #0b1222;        /* between 950 and 900 — raised surface */
+  --color-ink-3: #0f172a;        /* slate-900 — cards, inputs */
+  --color-line: rgb(237 232 223 / 0.12);
+  --color-line-strong: rgb(237 232 223 / 0.24);
+  --color-paper: #ede8df;        /* primary text */
+  --color-paper-dim: rgb(237 232 223 / 0.66);
+  --color-paper-mute: rgb(237 232 223 / 0.44);
+  --color-brass: #c4a675;        /* accent: links, active states, prices */
+  --color-shu: #e0715a;          /* vermilion — errors only */
+
+  --font-display: "Newsreader", "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --font-sans: "Instrument Sans", "Zen Kaku Gothic New", "Hiragino Sans", system-ui, sans-serif;
+  --font-jp: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
+
+  --ease-calm: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  --animate-fade-up: fade-up 0.9s var(--ease-calm) both;
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+  --animate-overlay-in: overlay-in 0.25s ease-out both;
+  @keyframes overlay-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  --animate-dialog-in: dialog-in 0.3s var(--ease-calm) both;
+  @keyframes dialog-in {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-ink);
+    color: var(--color-paper);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  :lang(ja) body {
+    line-break: strict;
+    word-break: normal;
+    overflow-wrap: anywhere;
+  }
+  ::selection {
+    background: var(--color-brass);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 1px solid var(--color-brass);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  /* Small uppercase section labels, as on the reference sites (“01 — Restaurant”). */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-paper-mute);
+  }
+  :lang(ja) .eyebrow { letter-spacing: 0.14em; }
+
+  .display {
+    font-family: var(--font-display);
+    font-weight: 300;
+    letter-spacing: -0.015em;
+    line-height: 1.08;
+  }
+  :lang(ja) .display {
+    font-family: var(--font-jp);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.45;
+  }
+
+  .hairline { border-color: var(--color-line); }
+
+  /* Google map tinted to match the charcoal palette. */
+  .map-dark {
+    filter: grayscale(1) invert(0.92) contrast(0.88) brightness(0.9) hue-rotate(180deg);
+  }
+}
+
+/* ---- react-day-picker (v9) skin ---- */
+:root .rdp-root {
+  --rdp-accent-color: var(--color-paper);
+  --rdp-day-height: 2.5rem;
+  --rdp-day-width: 2.5rem;
+  --rdp-day_button-height: 2.375rem;
+  --rdp-day_button-width: 2.375rem;
+  --rdp-day_button-border-radius: 2px;
+  --rdp-selected-border: 1px solid var(--color-paper);
+  --rdp-today-color: var(--color-brass);
+  --rdp-nav-height: 2.5rem;
+  font-size: 0.875rem;
+}
+.rdp-month_caption { font-family: var(--font-display); font-size: 1.125rem; font-weight: 400; }
+:lang(ja) .rdp-month_caption { font-family: var(--font-jp); }
+.rdp-weekday { color: var(--color-paper-mute); font-size: 0.6875rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; }
+.rdp-day_button { transition: background 0.15s; }
+.rdp-day:not(.rdp-disabled):not(.rdp-selected) .rdp-day_button:hover { background: rgb(237 232 223 / 0.08); }
+.rdp-selected .rdp-day_button { background: var(--color-paper); color: var(--color-ink); font-weight: 500; }
+.rdp-disabled { opacity: 0.25; }
+.rdp-chevron { fill: var(--color-paper-dim); }
+.rdp-button_previous:disabled .rdp-chevron, .rdp-button_next:disabled .rdp-chevron { opacity: 0.25; }
