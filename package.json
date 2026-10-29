@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "phrase-ja": "node scripts/phrase-ja.mjs",
+    "predev": "npm run phrase-ja",
     "dev": "next dev",
+    "prebuild": "npm run phrase-ja",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -28,6 +31,7 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "budoux": "^0.10.2",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
   },

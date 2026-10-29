@@ -3,7 +3,8 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import ca from "@/locales/ca.json";
 import es from "@/locales/es.json";
-import ja from "@/locales/ja.json";
+// Generated from ja.json with phrase-break marks — see scripts/phrase-ja.mjs.
+import ja from "@/locales/ja.phrased.json";
 import enGB from "@/locales/en-GB.json";
 
 export type Dictionary = typeof enGB;

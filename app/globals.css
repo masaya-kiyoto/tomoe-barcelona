@@ -52,9 +52,11 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
+  /* Wrap Japanese only at the phrase marks added by scripts/phrase-ja.mjs. */
   :lang(ja) body {
     line-break: strict;
-    word-break: normal;
+    word-break: keep-all;
+    overflow-wrap: break-word;
     overflow-wrap: anywhere;
   }
   ::selection {
