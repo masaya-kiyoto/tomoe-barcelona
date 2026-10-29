@@ -105,6 +105,23 @@
   }
 }
 
+/*
+ * Japanese hero headline. Full-width glyphs look much larger than Latin at the
+ * same size, so step the desktop sizes down; wrap greedily at the phrase marks
+ * instead of balancing (balance left "パセジ・ダ・" alone on the first line).
+ * Unlayered so it wins over the size utilities on the <h1>.
+ */
+:lang(ja) .hero-title {
+  line-height: 1.45;
+  text-wrap: wrap;
+}
+@media (min-width: 64rem) {
+  :lang(ja) .hero-title { font-size: 3rem; }
+}
+@media (min-width: 80rem) {
+  :lang(ja) .hero-title { font-size: 3.25rem; }
+}
+
 /* ---- react-day-picker (v9) skin ---- */
 :root .rdp-root {
   --rdp-accent-color: var(--color-paper);

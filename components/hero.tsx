@@ -29,7 +29,7 @@ export function Hero() {
         <div className="grid items-end gap-12 lg:grid-cols-12">
           <div className="lg:col-span-8 xl:col-span-7">
             <p className="eyebrow animate-fade-up">{t.hero.eyebrow}</p>
-            <h1 className="display mt-6 text-[2.375rem] text-balance animate-fade-up [animation-delay:120ms] sm:text-5xl lg:text-[4rem] xl:text-[4.5rem]">
+            <h1 className="display hero-title mt-6 text-[2.375rem] text-balance animate-fade-up [animation-delay:120ms] sm:text-5xl lg:text-[4rem] xl:text-[4.5rem]">
               {t.hero.title}
             </h1>
             <p className="mt-7 max-w-xl text-[0.9375rem] leading-relaxed text-paper-dim animate-fade-up [animation-delay:240ms] sm:text-base">
